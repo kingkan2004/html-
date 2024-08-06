@@ -113,7 +113,6 @@ def homepage():
     else:
         return redirect(url_for('login'))  # 如果未登录，重定向到登录页面
 
-
 # 退出登录
 @app.route('/logout')
 def logout():
